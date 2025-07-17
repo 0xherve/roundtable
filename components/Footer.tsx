@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { socials } from '../constants';
+import { Mail} from 'lucide-react'
+import Link from 'next/link';
 
 const Footer = () => (
   <motion.footer
@@ -9,25 +11,21 @@ const Footer = () => (
     whileInView="show"
     className={"py-8 relative"}
   >
-    <div className={" mx-auto flex flex-col gap-8 px-12" }>
+    <div className={" mx-auto flex flex-col gap-8 px-12 bg-secondary"}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Join Us
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/headset.svg"
-            alt="headset"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
+        <Link href='' target='blank' className="flex items-center h-fit py-4 px-6 bg-accent rounded-[32px] gap-[12px]">
+          <Mail className='text-foreground'strokeWidth={2} />
+          <span className="font-medium text-md text-foreground">
             get in touch
           </span>
-        </button>
+        </Link>
       </div>
 
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+        <div className="mb-[50px] h-[2px] bg-white opacity-25" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
