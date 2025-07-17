@@ -12,16 +12,50 @@ export const socials = [
 ]
 
 export const links = [
+
     {
-        title: 'Problem',
-        url: '/problem',
+        title: 'Home',
+        url: '/home',
     },
     {
-        title: 'Mission',
-        url: '/mission',
+        title: 'About Us',
+        url: '/about',
     },
     {
-        title: 'Solution',
-        url: '/solution',
+        title: 'Challenges',
+        url: '/challenges',
     },
+]
+
+export const challenges = [
+    {
+        title: 'The launch of the Metaverse and be happy :)',
+        subtext: 'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        image: '/trees.jpg',
+        link: '/',
+    },
+    {
+        title: 'The launch of the Metaverse and be happy :)',
+        subtext: 'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        image: '/trees.jpg',
+        link: '/',
+    },
+    {
+        title: 'The launch of the Metaverse and be happy :)',
+        subtext: 'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        image: '/trees.jpg',
+        link: '/',
+    },
+    {
+        title: 'The launch of the Metaverse and be happy :)',
+        subtext: 'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        image: '/trees.jpg',
+        link: '/',
+    },
+    {
+        title: 'The launch of the Metaverse and be happy :)',
+        subtext: 'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        image: '/trees.jpg',
+        link: '/',
+    }
 ]

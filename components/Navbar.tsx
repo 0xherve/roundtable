@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-black text-foreground px-12 py-8 mb-8">
+    <header className="bg-background text-foreground px-12 py-4 border-muted border-b">
       <div className="flex justify-between items-center">
         {/* Logo and Burger Menu */}
         <div className="flex items-center space-x-4">
@@ -30,7 +30,7 @@ const Header = () => {
         {/* Nav Links */}
         <nav className={`lg:flex space-x-6 ${isOpen ? 'block' : 'hidden'} lg:block`}>
           {links.map((link, i) => (
-            <Link href={link.url} > 
+            <Link href={link.url} key={link.title}> 
             {link.title}
             </Link>
           ))}
@@ -39,7 +39,7 @@ const Header = () => {
         {/* Call to Action */}
         <div className="flex items-center space-x-4">
           <Link href="Login"  />
-          <button className='text-foregrounf'>
+          <button className='text-primary font-bold bg-accent rounded-full px-6 py-3'>
             Get started
           </button>
         </div>
