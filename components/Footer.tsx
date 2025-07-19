@@ -11,7 +11,7 @@ const Footer = () => (
     whileInView="show"
     className={"py-8 relative"}
   >
-    <div className={" mx-auto flex flex-col gap-8 px-12 bg-secondary"}>
+    <div className={" mx-auto flex flex-col gap-8 px-12 "}>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Join Us
