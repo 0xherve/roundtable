@@ -14,8 +14,9 @@ const Header = () => {
       <div className="flex justify-between items-center">
         {/* Logo and Burger Menu */}
         <div className="flex items-center space-x-4">
-          <a href="/">
-          <Image src= '/round.png' alt="raft_logo" width={45} height={45} />
+          <a href="/" className='flex items-center gap-4'>
+          <Image src= '/round.png' alt="logo" width={45} height={45} />
+          <h1 className='text-accent text-[24px]'>the RoundTable</h1>
           </a>
           <button
             className="lg:hidden"
@@ -40,10 +41,9 @@ const Header = () => {
 
         {/* Call to Action */}
         <div className="flex items-center space-x-4">
-          <Link href="Login"  />
-          <button className='text-primary font-bold bg-accent rounded-full px-6 py-3'>
-            Get started
-          </button>
+          <Link href="https://docs.google.com/presentation/d/1Wn7Asp8f-I9GVV6PvjV0vJBU1nf_0t-lR_PeSiADNys/edit?usp=sharing"  className='text-primary font-bold bg-accent rounded-full px-6 py-3'>
+            Learn More
+          </Link>
         </div>
       </div>
     </header>

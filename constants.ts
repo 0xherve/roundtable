@@ -25,7 +25,7 @@ export const links = [
     },
     {
         title: 'Challenges',
-        url: '/challenges',
+        url: '#challenges',
     },
 ]
 
