@@ -16,8 +16,8 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Join Us
         </h4>
-        <Link href='' target='blank' className="flex items-center h-fit py-4 px-6 bg-accent rounded-[32px] gap-[12px]">
-          <Mail className='text-foreground'strokeWidth={2} />
+        <Link href='https://www.instagram.com/round_table____/' target='blank' className="flex items-center h-fit py-4 px-6 bg-accent rounded-[32px] gap-[12px]">
+          {/* <Mail className='text-foreground'strokeWidth={2} /> */}
           <span className="font-medium text-md text-foreground">
             get in touch
           </span>
