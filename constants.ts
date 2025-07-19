@@ -16,16 +16,16 @@ export const socials = [
 export const links = [
 
     {
-        title: 'Home',
-        url: '/',
-    },
-    {
-        title: 'About Us',
-        url: '/about',
-    },
-    {
         title: 'Challenges',
-        url: '#challenges',
+        url: 'challenges',
+    },
+    {
+        title: 'Prototype',
+        url: 'prototype',
+    },
+      {
+        title: 'Our Team',
+        url: 'team',
     },
 ]
 
