@@ -23,7 +23,7 @@ const steps = [
 
 const PrototypeSection: React.FC = () => {
   return (
-    <section className="sm:p-16 xs:p-8 px-6 py-32 relative z-10 bg-secondary">
+    <section className="sm:p-16 xs:p-8 px-6 py-32 relative z-10 bg-secondary" id='prototype'>
       <div className="2xl:max-w-7xl w-full mx-auto flex lg:flex-row flex-col gap-8 items-center">
         
         {/* Image Section */}

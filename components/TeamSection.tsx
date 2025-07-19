@@ -5,7 +5,7 @@ import { team } from '@/constants';
 
 const TeamSection = () => {
   return (
-    <section className="w-full px-8 py-20 bg-secondary text-foreground flex flex-col items-center">
+    <section className="w-full px-8 py-20 bg-secondary text-foreground flex flex-col items-center" id='team'>
 
       <div>
       {/* Heading */}
