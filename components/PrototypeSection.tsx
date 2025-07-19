@@ -1,25 +1,29 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import { Layers, Home, Leaf, } from 'lucide-react';
 
 const steps = [
   {
-    number: '01',
-    text: 'Identify the local tourism gaps and needs clearly.',
+    image: <Home  />,
+    title: 'Community-Owned',
+    description: 'Empowers local communities to manage and benefit directly from tourism activities.',
   },
   {
-    number: '02',
-    text: 'Design scalable solutions tailored to the community.',
+    image: <Layers />,
+    title: 'Scalable Design',
+    description: 'Adapts to different regions with minimal adjustments for local contexts.',
   },
   {
-    number: '03',
-    text: 'Prototype and refine based on real feedback.',
+    image: <Leaf/>,
+    title: 'Sustainable Growth',
+    description: 'Ensures environmental, cultural, and economic sustainability long-term.',
   },
 ];
 
 const PrototypeSection: React.FC = () => {
   return (
-    <section className="sm:p-16 xs:p-8 px-6 py-32 relative z-10 bg-secondary">
+    <section className="sm:p-16 xs:p-8 px-6 py-32 relative z-10 bg-secondary" id='prototype'>
       <div className="2xl:max-w-7xl w-full mx-auto flex lg:flex-row flex-col gap-8 items-center">
         
         {/* Image Section */}
@@ -52,18 +56,29 @@ const PrototypeSection: React.FC = () => {
           </h2>
 
           {/* Steps */}
-          <div className="mt-8 flex flex-col max-w-[370px] gap-6">
-            {steps.map((step, index) => (
-              <div key={index} className="flex justify-center items-center flex-row">
-                <div className="flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]">
-                  <p className="font-bold text-[20px] text-white">{step.number}</p>
-                </div>
-                <p className="flex-1 ml-[30px] font-normal text-[18px] text-[#b0b0b0] leading-[32px]">
-                  {step.text}
+         <div className="mt-8 flex flex-col max-w-[500px] gap-8">
+          {steps.map((step, index) => (
+            <div key={index} className="flex items-start gap-6">
+              
+              {/* Icon */}
+              <div className="flex flex-none justify-center items-center w-[48px] h-[48px] rounded-xl bg-muted">
+                {step.image}
+              </div>
+
+              {/* Text */}
+              <div className="flex flex-col">
+                <h3 className="font-medium text-foreground text-[28px]">
+                  {step.title}
+                </h3>
+                <p className="font-normal text-[18px] text-foreground/50 leading-[32px]">
+                  {step.description}
                 </p>
               </div>
-            ))}
-          </div>
+
+            </div>
+          ))}
+        </div>
+
         </motion.div>
 
       </div>
