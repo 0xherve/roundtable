@@ -31,12 +31,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.variable} ${comic.variable} antialiased`}
-      >
-        <Navbar/>
+      <head />
+      <body className={`${montserrat.variable} ${comic.variable} antialiased`}>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );
