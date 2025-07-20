@@ -5,7 +5,7 @@ import { challenges } from '../constants';
 import ChallengeCard from './challengeCard';
 
 const ChallengeSection = () => (
-  <section className="px-6 py-24 text-foreground relative z-10" id='challenges'>
+  <section className="px-6 py-24 text-foreground relative z-10">
     
      <div className='flex flex-col justfy-center items-center py-12'>
       {/* Heading */}
