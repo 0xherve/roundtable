@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${comic.variable} antialiased`}
+        className={`${montserrat.variable} ${comic.variable} antialiased bg-blue-500`}
       >
         <Navbar/>
         {children}
