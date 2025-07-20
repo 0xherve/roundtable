@@ -1,4 +1,3 @@
-import ContactSection from '@/components/Contacts';
 import HeroSection from '@/components/Hero'
 import SolutionSection from '@/components/Mission';
 import ProblemSection from '@/components/Problem';

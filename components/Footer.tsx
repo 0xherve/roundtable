@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { socials } from '../constants';
+import Link from 'next/link';
 
 const Footer = () => (
   <motion.footer
@@ -19,7 +20,7 @@ const Footer = () => (
           <span className="font-medium text-md text-foreground">
             get in touch
           </span>
-        </button>
+        </Link>
       </div>
 
       <div className="flex flex-col">
