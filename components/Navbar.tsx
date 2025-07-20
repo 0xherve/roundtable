@@ -16,7 +16,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-background text-foreground px-12 py-4 border-muted border-b">
+    <header className="bg-black text-foreground px-12 py-8 mb-8">
       <div className="flex justify-between items-center">
         {/* Logo and Burger Menu */}
         <div className="flex items-center space-x-4">

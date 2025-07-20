@@ -1,19 +1,15 @@
 import type { Metadata } from "next";
-import {  Comic_Neue, Montserrat } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar"
-import Footer from "@/components/Footer";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const geistSans = Geist({
+  variable: "--font-geist-sans",
   subsets: ["latin"],
-  weight: "400"
 });
 
-const comic = Comic_Neue({
-  variable: "--font-comic",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
-  weight: "700"
 });
 
 export const metadata: Metadata = {
@@ -32,11 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${comic.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
         {children}
-        <Footer/>
       </body>
     </html>
   );

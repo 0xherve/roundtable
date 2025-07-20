@@ -2,8 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { socials } from '../constants';
-import { Mail} from 'lucide-react'
-import Link from 'next/link';
 
 const Footer = () => (
   <motion.footer
@@ -21,11 +19,11 @@ const Footer = () => (
           <span className="font-medium text-md text-foreground">
             get in touch
           </span>
-        </Link>
+        </button>
       </div>
 
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-25" />
+        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
