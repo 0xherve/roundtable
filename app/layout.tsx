@@ -15,9 +15,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "the Round Table",
   description: "Creating financial self-reliance for African communities",
-  icons:{
-    icon: '/round.png'
-  }
 };
 
 export default function RootLayout({

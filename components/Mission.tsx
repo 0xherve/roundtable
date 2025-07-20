@@ -8,8 +8,7 @@ const SolutionSection: React.FC = () => {
     'lasting economic freedom.'
   ];
   return (
-    <section id='about'
-    className="w-full h-screen px-8 py-24 flex flex-col items-center justify-center text-center bg-accent text-secondary">
+    <section className="w-full h-screen px-8 py-24 flex flex-col items-center justify-center text-center bg-accent text-secondary">
       <div className="space-y-2">
         {lines.map((line, index) => (
           <motion.h2
