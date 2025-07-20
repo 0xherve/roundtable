@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { socials } from '../constants';
 import Link from 'next/link';
+import { Mail } from 'lucide-react';
 
 const Footer = () => (
   <motion.footer

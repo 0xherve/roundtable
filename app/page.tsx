@@ -12,7 +12,6 @@ export default function Home() {
     <SolutionSection />
     <ChallengeSection />
     <PrototypeSection />
-    <ContactSection />
    </main>
   );
 }
