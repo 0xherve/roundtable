@@ -14,7 +14,9 @@ const Header = () => {
       <div className="flex justify-between items-center">
         {/* Logo and Burger Menu */}
         <div className="flex items-center space-x-4">
-          <Image src= '/twitter.svg' alt="raft_logo" width={45} height={45} />
+          <a href="/">
+          <Image src= '/round.png' alt="raft_logo" width={45} height={45} />
+          </a>
           <button
             className="lg:hidden"
             onClick={() => setIsOpen(!isOpen)}
